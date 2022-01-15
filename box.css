@@ -1,0 +1,95 @@
+html, body {
+  background-color: #F6F2D4;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 12vw;
+  height: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5vw;
+  border-radius: 2vw;
+}
+
+.box {
+  font-family: sans-serif;
+  color: transparent;
+}
+
+.box:hover {
+  cursor: pointer;
+  background-color: #348298;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+  height: 40vw;
+  border-style: solid;
+  border-color: #276678;
+  border-width: 0.5vw;
+  border-radius: 3.5vw;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outline {
+  background-color: #276678;
+}
+
+.outline:hover {
+  cursor: pointer;
+  background-color: #348298;
+}
+
+.mark {
+  font-size: 7vw;
+  font-family: 'Varela Round', sans-serif;
+  color: transparent;
+  font-weight: 900;
+}
+
+@media (max-width: 425px) {
+  .flex-main {
+    flex-direction: column;
+  }
+
+  .main-box {
+    width: 90vw;
+    height: 90vw;
+    border-width: 1vw;
+  }
+
+  .square {
+    width: 27vw;
+    height: 27vw;
+    margin: 1vw;
+    border-radius: 2vw;
+  }
+
+  .mark {
+    font-size: 15vw;
+  }
+
+  .outline:hover {
+    cursor: pointer;
+  }
+}

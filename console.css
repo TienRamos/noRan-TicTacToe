@@ -1,0 +1,91 @@
+img {
+  width: 15vw;
+}
+
+.console {
+  margin-right: 2vw;
+  height: 40vw;
+}
+
+.flex-console {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.score-box {
+  font-family: 'Share Tech Mono', monospace;
+  width: 15vw;
+  color: #276678;
+}
+
+h2, h3 {
+  font-size: 1.5vw;
+  margin: 1vw 0 1vw 0;
+}
+
+.button {
+  width: 15vw;
+  font-family: 'Share Tech Mono', monospace;
+  border-style: solid;
+  border-width: 0.3vw;
+  color: #276678;
+  border-radius: 2vw;
+  border-color: #276678;
+  font-size: 2vw;
+  font-weight: 900;
+  background-color: transparent;
+  margin-top: 1vw;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #F6F2D4;
+  background-color: #276678;
+}
+
+@media (max-width: 425px) {
+  img {
+    width: 40vw;
+    margin-bottom: 10vw;
+  }
+
+  .console {
+    margin-bottom: 5vw;
+    height: 30vw;
+    width: 90vw;
+  }
+
+  .flex-console {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .console-box {
+
+    margin-left: 10vw;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  h2, h3 {
+    font-size: 4vw;
+    margin: 1vw 0 1vw 0;
+  }
+
+  .score-box {
+    margin-bottom: 5vw;
+  }
+
+  .button {
+    width: 35vw;
+    border-width: 1vw;
+    border-radius: 5vw;
+    font-size: 5vw;
+    font-weight: 900;
+    margin: 1vw 0 5vw 0;
+  }
+}
