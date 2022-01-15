@@ -3,7 +3,7 @@ noRan (from NOt RANdom) is a bot designed to be a competitive, but not perfect, 
 
 How noRan works:
 - Before making a move, noRan searches for winning boxes.
-- If no such boxes are found, noRan checks if PLAYER is about to win, and blocks the right block
+- If no such boxes are found, noRan checks if PLAYER is about to win, and blocks the right box
 - Otherwise, a move is executed based on a randomly selected predetermined move set.
 - Scores are tallied and carried over after every round, unless restart button is pressed.
 
